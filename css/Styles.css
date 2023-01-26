@@ -47,13 +47,13 @@ body{
 #menu ul li{
     height: 50px;
     width: 90%;
-    background: linear-gradient(to right,#ff0000, #00aeff98);
+    background: linear-gradient(to right, #00aeff98,#ff0000);
     border-radius:50px ;
     margin-top:3% ;
 }
 
 #menu ul li:hover{
-    background: #FF7E00;
+  background: linear-gradient(to right, #06007f98,#ffaf1c);
 }
 
 ul li a{
@@ -73,7 +73,7 @@ ul li a{
     display: none;
     width: 90%;
     height: 50px;
-    background: #FFB800;
+    background: linear-gradient(to right, #00aeff98,#ff0000);
     line-height: 50px;
     font-size:20px;
     text-align: center;
@@ -83,7 +83,7 @@ ul li a{
 }
 
 #btn-volver:hover{
-    background: #FF7E00;
+  background: linear-gradient(to right, #06007f98,#ffaf1c);
 }
 
 
